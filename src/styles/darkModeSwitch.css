@@ -1,0 +1,12 @@
+.switch{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.switch > label{
+    font-size: 15px;
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
