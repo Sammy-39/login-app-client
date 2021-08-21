@@ -11,7 +11,7 @@ import DarkModeSwitch from './components/DarkModeSwitch'
 import './App.css';
 
 
-axios.defaults.baseURL = "http://localhost:5000/api"
+axios.defaults.baseURL = "https://login-app-server.herokuapp.com/api"
 axios.defaults.withCredentials = true
 
 const App = () => {
